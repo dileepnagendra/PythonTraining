@@ -53,24 +53,32 @@ print(greet("Karthik"))
 # print(sub)
 # print(pro)
 
-
-def IsPrime(n):
-    for i in range(2,int(n**0.5)+1):
-        if n%i==0:
-            return False
-    return True
-
-print(IsPrime(7))
-print(IsPrime(17))
-print(IsPrime(18))
-
-
+#
+# def IsPrime(n):
+#     for i in range(2,int(n**0.5)+1):
+#         if n%i==0:
+#             return False
+#     return True
+#
+# print(IsPrime(7))
+# print(IsPrime(17))
+# print(IsPrime(18))
 
 
+l=[4,5,6]
+# print(l.pop(-1))
+
+def calc(a,b,c=0):
+    if c==0:
+        return a+b
+    else:
+        return a*b*c
+print(calc(4,5,6))
 
 
-
-
+def add(a,b):
+    return a+b
+print(add(b=5,a=4))
 
 
 
