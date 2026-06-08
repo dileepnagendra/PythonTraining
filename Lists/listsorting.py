@@ -18,11 +18,11 @@ l=["Faisel","Adeeb","Ann Sandra","Ananya","Bryan","Dileep"]
 #['Adeeb', 'Ananya', 'Ann Sandra', 'Bryan', 'Dileep', 'Faisel']
 
 #Sort the above list based on the length of strings
-# l.sort(key = len)
-# print(l)
-# # ['Adeeb', 'Bryan', 'Ananya', 'Dileep', 'Faisel', 'Ann Sandra']
-# l.sort(key = len,reverse = True)
-# print(l)
+l.sort(key = len)
+print(l)
+# ['Adeeb', 'Bryan', 'Ananya', 'Dileep', 'Faisel', 'Ann Sandra']
+l.sort(key = len,reverse = True)
+print(l)
 # ['Ann Sandra', 'Faisel', 'Ananya', 'Dileep', 'Adeeb', 'Bryan']
 
 
